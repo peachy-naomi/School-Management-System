@@ -1,0 +1,257 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.input{
+  background-color: white;
+}
+
+.icon{
+  background-color: white;
+  color: black;
+}
+
+.form{
+  background-color: white;
+  width: 300px;
+  height: 50px;
+  padding: 20px;
+  box-shadow: 0px 0px 2px  rgba(255, 255, 255, 0.267);
+}
+
+.formchild{
+  margin-bottom: 0;
+}
+
+.form input{
+  background-color: lightblue;
+  border: none;
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.form input::placeholder{
+  color: black;
+  font-size: 15px;
+}
+
+.form input[type="submit"]{
+  color: white;
+  background-color: darkblue;
+  width: 100px;
+  border-radius: 20px;
+  
+}
+
+.section .btn{
+  width: 100%;
+  padding: 12px;
+  background: #4b4b4b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+/* Common styles for both forms */
+.forms .log, .forms .reg {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Headings */
+.formtabs h1 {
+  width: 35%;
+  padding: 12px;
+  background: white;
+  color: #4b4b4b;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.formtabs h1:hover{
+  background: #4b4b4b;
+  color: white;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.formtabs button{
+  background: #4b4b4b;
+  color: white;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.formtabs{
+  display: flex;
+  gap: 10px;
+  width: 380px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom: 1px solid 4b4b4b ;
+  margin: 20px;
+  margin-bottom: -40px;
+  background-color: white;
+
+}
+
+.log h1{
+  color: #4b4b4b;
+  font-size: 27px;
+}
+
+.reg h1{
+  color: #4b4b4b;
+  font-size: 27px;
+}
+/* Input fields */
+.forms input {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    background-color: #d1d1d1;
+    transition: all 0.3s ease;
+}
+
+/* .forms input:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+} */
+
+/* Buttons */
+.forms button {
+    width: 50%;
+    padding: 12px;
+    background: #4b4b4b;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.forms button:hover {
+    background-color: #d1d1d1;
+    color: #4b4b4b;
+}
+
+/* Paragraph and span */
+.forms p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.forms span {
+    color: #4b4b4b;
+    cursor: pointer;
+    margin-left: 5px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Responsive for mobile */
+@media screen and (max-width: 700px) {
+    .forms {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 30px 20px;
+    }
+}
+
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 200px;
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar p {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  background: #f4f6f8;
+  color: #2c3e50;
+
+}
+
+.card {
+  /* background: white; */
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
