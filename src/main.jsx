@@ -2,12 +2,12 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import School from './components/school/manage.jsx'
+import Fetch from './components/files/fetch.jsx'
 // import { CheckCheck } from 'lucide-react';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     
-  <School/>
+  <Fetch/>
 
     {/* <Welcome name="Naomi" age={22}/>
     <Welcome name="David" age={30}/>
