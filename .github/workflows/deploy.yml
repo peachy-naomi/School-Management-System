@@ -68,7 +68,7 @@ jobs:
 
             echo "→ Pulling latest code..."
             cd /root/School-Management-System                  # change to your app directory
-            git pull origin main
+            git pull origin master
 
             echo "→ Installing dependencies..."
             npm ci --omit=dev
