@@ -8,7 +8,7 @@ function Register(){
     return(
         <section className="section">
 
-            <button>Hello there</button>
+            <button>Hello there, how are you</button>
             {!isFormVisible && (
                 <button className="btn" onClick={() => {setIsFormVisible(true)}}>  
                 LOGIN</button>
