@@ -71,7 +71,7 @@ jobs:
             git pull origin master
 
             echo "→ Installing dependencies..."
-            npm ci --omit=dev
+            npm ci 
 
             echo "→ Building..."
             npm run build --if-present
